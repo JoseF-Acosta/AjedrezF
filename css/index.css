@@ -1,0 +1,581 @@
+body{
+
+    border: 0;
+
+}
+
+.letras1{
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    color: black;
+    grid-template-columns: 80px 80px 80px 80px 80px 80px 80px 80px;
+}
+
+.letras2{
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    color: black;
+    grid-template-columns: 80px 80px 80px 80px 80px 80px 80px 80px;
+}
+
+
+.num1{
+    grid-row: inline;
+    margin: 31px;
+}
+
+.tablero{ 
+    background-color: white;
+    justify-content: center;
+    place-items: center;
+    gap: 0px;
+    display: grid; 
+
+    grid-template-columns: 80px 80px 80px 80px 80px 80px 80px 80px;
+}
+
+.unoa{
+    background-color: rgba(212, 212, 212, 0.74);
+    grid-row: inline;
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.dosa{
+    background-color: gray;
+    grid-row: inline;
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.tresa{
+    background-color: rgba(212, 212, 212, 0.74);
+    grid-row: inline;
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.cuatroa{
+    background-color: gray;
+    grid-row: inline;
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.cincoa{
+    background-color: rgba(212, 212, 212, 0.74);
+    grid-row: inline;
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.seisa{
+    background-color: gray;
+    grid-row: inline;
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.sietea{
+    background-color: rgba(212, 212, 212, 0.74);
+    grid-row: inline;
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.ochoa{
+    background-color: gray;
+    grid-row: inline;
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.unob{
+    background-color: gray;
+    grid-column:initial;
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.dosb{
+    background-color: rgba(212, 212, 212, 0.74);
+    grid-column:initial;
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.tresb{
+    background-color: gray;
+    grid-column:initial;
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.cuatrob{
+    background-color: rgba(212, 212, 212, 0.74);
+    grid-column:initial;
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.cincob{
+    background-color: gray;
+    grid-column:initial;
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.seisb{
+    background-color: rgba(212, 212, 212, 0.74);
+    grid-column:initial;
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.sieteb{
+    background-color: gray;
+    grid-column:initial;
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.ochob{
+    background-color: rgba(212, 212, 212, 0.74);
+    grid-column:initial;
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.unoc{
+    background-color: gray;
+    grid-column:initial;
+    width: 80px;
+    height: 80px;
+}
+
+.dosc{
+    background-color: rgba(212, 212, 212, 0.74);
+    grid-column:initial;
+    width: 80px;
+    height: 80px;
+}
+
+.tresc{
+    background-color: gray;
+    grid-column:initial;
+    width: 80px;
+    height: 80px;
+}
+
+.cuatroc{
+    background-color: rgba(212, 212, 212, 0.74);
+    grid-column:initial;
+    width: 80px;
+    height: 80px;
+}
+
+.cincoc{
+    background-color: gray;
+    grid-column:initial;
+    width: 80px;
+    height: 80px;
+}
+
+.seisc{
+    background-color: rgba(212, 212, 212, 0.74);
+    grid-column:initial;
+    width: 80px;
+    height: 80px;
+}
+
+.sietec{
+    background-color: gray;
+    grid-column:initial;
+    width: 80px;
+    height: 80px;
+}
+
+.ochoc{
+    background-color: rgba(212, 212, 212, 0.74);
+    grid-column:initial;
+    width: 80px;
+    height: 80px;
+}
+
+.unod{
+    background-color: rgba(212, 212, 212, 0.74);
+    grid-column:initial;
+    width: 80px;
+    height: 80px;
+}
+
+.dosd{
+    background-color: gray;
+    grid-column:initial;
+    width: 80px;
+    height: 80px;
+}
+
+.tresd{
+    background-color: rgba(212, 212, 212, 0.74);
+    grid-column:initial;
+    width: 80px;
+    height: 80px;
+}
+
+.cuatrod{
+    background-color: gray;
+    grid-column:initial;
+    width: 80px;
+    height: 80px;
+}
+
+.cincod{
+    background-color: rgba(212, 212, 212, 0.74);
+    grid-column:initial;
+    width: 80px;
+    height: 80px;
+}
+
+.seisd{
+    background-color: gray;
+    grid-column:initial;
+    width: 80px;
+    height: 80px;
+}
+
+.sieted{
+    background-color: rgba(212, 212, 212, 0.74);
+    grid-column:initial;
+    width: 80px;
+    height: 80px;
+}
+
+.ochod{
+    background-color: gray;
+    grid-column:initial;
+    width: 80px;
+    height: 80px;
+}
+
+.unoe{
+    background-color: gray;
+    grid-column:initial;
+    width: 80px;
+    height: 80px;
+}
+
+.dose{
+    background-color: rgba(212, 212, 212, 0.74);
+    grid-column:initial;
+    width: 80px;
+    height: 80px;
+}
+
+.trese{
+    background-color: gray;
+    grid-column:initial;
+    width: 80px;
+    height: 80px;
+}
+
+.cuatroe{
+    background-color: rgba(212, 212, 212, 0.74);
+    grid-column:initial;
+    width: 80px;
+    height: 80px;
+}
+
+.cincoe{
+    background-color: gray;
+    grid-column:initial;
+    width: 80px;
+    height: 80px;
+}
+
+.seise{
+    background-color: rgba(212, 212, 212, 0.74);
+    grid-column:initial;
+    width: 80px;
+    height: 80px;
+}
+
+.sietee{
+    background-color: gray;
+    grid-column:initial;
+    width: 80px;
+    height: 80px;
+}
+
+.ochoe{
+    background-color: rgba(212, 212, 212, 0.74);
+    grid-column:initial;
+    width: 80px;
+    height: 80px;
+}
+
+.unof{
+    background-color: rgba(212, 212, 212, 0.74);
+    grid-column:initial;
+    width: 80px;
+    height: 80px;
+}
+
+.dosf{
+    background-color: gray;
+    grid-column:initial;
+    width: 80px;
+    height: 80px;
+}
+
+.tresf{
+    background-color: rgba(212, 212, 212, 0.74);
+    grid-column:initial;
+    width: 80px;
+    height: 80px;
+}
+
+.cuatrof{
+    background-color: gray;
+    grid-column:initial;
+    width: 80px;
+    height: 80px;
+}
+
+.cincof{
+    background-color: rgba(212, 212, 212, 0.74);
+    grid-column:initial;
+    width: 80px;
+    height: 80px;
+}
+
+.seisf{
+    background-color: gray;
+    grid-column:initial;
+    width: 80px;
+    height: 80px;
+}
+
+.sietef{
+    background-color: rgba(212, 212, 212, 0.74);
+    grid-column:initial;
+    width: 80px;
+    height: 80px;
+}
+
+.ochof{
+    background-color: gray;
+    grid-column:initial;
+    width: 80px;
+    height: 80px;
+}
+
+.unog{
+    background-color: gray;
+    grid-column:initial;
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.dosg{
+    background-color: rgba(212, 212, 212, 0.74);
+    grid-column:initial;
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.tresg{
+    background-color: gray;
+    grid-column:initial;
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.cuatrog{
+    background-color: rgba(212, 212, 212, 0.74);
+    grid-column:initial;
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.cincog{
+    background-color: gray;
+    grid-column:initial;
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.seisg{
+    background-color: rgba(212, 212, 212, 0.74);
+    grid-column:initial;
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.sieteg{
+    background-color: gray;
+    grid-column:initial;
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.ochog{
+    background-color: rgba(212, 212, 212, 0.74);
+    grid-column:initial;
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.unoh{
+    background-color: rgba(212, 212, 212, 0.74);
+    grid-column:initial;
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.dosh{
+    background-color: gray;
+    grid-column:initial;
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.tresh{
+    background-color: rgba(212, 212, 212, 0.74);
+    grid-column:initial;
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.cuatroh{
+    background-color: gray;
+    grid-column:initial;
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.cincoh{
+    background-color: rgba(212, 212, 212, 0.74);
+    grid-column:initial;
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.seish{
+    background-color: gray;
+    grid-column:initial;
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.sieteh{
+    background-color: rgba(212, 212, 212, 0.74);
+    grid-column:initial;
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.ochoh{
+    background-color: gray;
+    grid-column:initial;
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
